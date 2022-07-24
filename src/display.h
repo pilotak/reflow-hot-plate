@@ -103,6 +103,7 @@ void displayNext(int counter) {
         }
 
         default:
+            display_menu_change = true;
             break;
     }
 }
